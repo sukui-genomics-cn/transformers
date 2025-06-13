@@ -1,0 +1,67 @@
+{
+    "os": "Linux-4.19.90-24.4.v2101.ky10.aarch64-aarch64-with-glibc2.28",
+    "python": "3.10.16",
+    "heartbeatAt": "2025-06-05T01:30:23.279037",
+    "startedAt": "2025-06-05T01:30:23.029336",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--model_name_or_path",
+        "google-bert/bert-base-cased",
+        "--task_name",
+        "mrpc",
+        "--do_train",
+        "--do_eval",
+        "--max_seq_length",
+        "128",
+        "--per_device_train_batch_size",
+        "32",
+        "--learning_rate",
+        "2e-5",
+        "--num_train_epochs",
+        "10",
+        "--output_dir",
+        "/tmp/mrpc/"
+    ],
+    "state": "running",
+    "program": "/home/share/huadjyin/home/s_sukui/03_project/transformers/examples/pytorch/text-classification/run_glue.py",
+    "codePath": "examples/pytorch/text-classification/run_glue.py",
+    "git": {
+        "remote": "git@github.com:huggingface/transformers.git",
+        "commit": "ff3fad61e32af207cf83b687e6a038e4dd331234"
+    },
+    "email": "kuisu_dgut@163.com",
+    "root": "/home/share/huadjyin/home/s_sukui/03_project/transformers",
+    "host": "cyclone001-agent-56",
+    "username": "s_sukui",
+    "executable": "/home/share/huadjyin/home/s_sukui/.conda/envs/rl_py10/bin/python",
+    "cpu_count": 128,
+    "cpu_count_logical": 128,
+    "disk": {
+        "total": 52.902557373046875,
+        "used": 26.270065307617188
+    },
+    "gpu": "NVIDIA A100-PCIE-40GB",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA A100-PCIE-40GB",
+            "memory_total": 42949672960
+        },
+        {
+            "name": "NVIDIA A100-PCIE-40GB",
+            "memory_total": 42949672960
+        },
+        {
+            "name": "NVIDIA A100-PCIE-40GB",
+            "memory_total": 42949672960
+        },
+        {
+            "name": "NVIDIA A100-PCIE-40GB",
+            "memory_total": 42949672960
+        }
+    ],
+    "memory": {
+        "total": 254.0723876953125
+    }
+}
